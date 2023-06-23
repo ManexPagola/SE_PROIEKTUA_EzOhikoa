@@ -1,0 +1,15 @@
+ld rd,addr
+st rf,addr
+add rd,rf1,rf2
+sub rd,rf1,rf2
+mul rd,rf1,rf2
+div rd,rf1,rf2
+and rd,rf1,rf2
+or rd,rf1,rf2
+xor rd,rf1,rf2
+mov rd,rf
+cmp rf1,rf2
+b addr
+beq addr
+bgt addr
+blt addr
